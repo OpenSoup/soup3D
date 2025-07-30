@@ -25,8 +25,10 @@ pip install pillow
 import soup3D
 import soup3D.event
 import soup3D.shader
-from soup3D.events import WindowCloseEvent
-from soup3D.name import TRIANGLE_B
+from soup3D.events import *
+from soup3D.name import *
+from math import *
+from time import*
 
 
 def stop(event : WindowCloseEvent):  # 用于绑定窗口关闭事件的函数，每个事件绑定的函数都需要有一个继承于Event的参数。
