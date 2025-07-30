@@ -62,7 +62,7 @@ class Shape:
         glMatrixMode(GL_MODELVIEW)
         glPopMatrix()
 
-    def paint(self : "Shape", x : float, y : float) -> None:
+    def paint(self, x : float, y : float) -> None:
         """在单帧渲染该图形"""
         global render_queue
         render_queue.append((self, x, y))

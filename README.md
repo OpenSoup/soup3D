@@ -53,6 +53,7 @@ if __name__ == '__main__':
     triangle.show()                            # 显示模型
     while running:  # 主循环
         soup3D.update()  # 更新画面
+
 ```
 
 这段代码运行后，您可以看到一个绿色三角形在窗口中
