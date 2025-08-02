@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
     green = soup3D.shader.FPL(soup3D.shader.MixChannel((1, 1), 0, 1, 0))  # 创建绿色材质
     face = soup3D.Face(TRIANGLE_B, green, [                               # 创建面
-        (0, 0, 0, 0, 0),  # (R, G, B, U, V)
+        (0, 0, 0, 0, 0),  # (X, Y, Z, U, V)
         (100, 0, 0, 0, 0),
         (0, 100, 0, 0, 0)
     ])
